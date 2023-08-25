@@ -1,0 +1,147 @@
+.descuento {
+background-color: aquamarine;
+color:black;
+font-size: 15px;
+width: 1024px;
+height: 38px;
+flex-shrink: 0;
+box-sizing: border-box;
+margin: 0%;
+
+
+}
+
+.titulo {
+   border: 1px sold;
+    background-color: #00669F;
+    color:black;
+    width: 1024px;
+   height: 101px;
+   flex-shrink: 0;
+   box-sizing: border-box;
+   margin: 0%;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    height: 800px;
+    margin: 80px 20 px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.caja-hija{ 
+    position: relative;
+    width: 300px;
+    height: 530px;
+    align-content: center;
+    margin: 15px;
+    flex-shrink: 0;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.fondo{
+    position: relative;
+    width: 300px;
+    height: 193px;
+}
+
+.imagen{
+    position: relative;
+    top: -75px;
+    left: 85px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+.corazon{
+    position: relative;
+    top: -55%;
+    right: 39%;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+.corazon2{
+    position: relative;
+    top: -49%;
+    right: 40%;
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+.descripcion{
+    position: relative;
+    top: -70px;
+    color:black;
+    font-family: sans-serif;
+    font-size: 16 px;
+    font-weight: 400px;
+    padding: 5 px;
+
+}
+
+.boton{
+    position: relative;
+    top: -50px;
+    right: -10px;
+    background: #00669F;
+    color: black;
+    text-align:center;
+    font-size: 19px;
+    font-weight: 300;
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+.boton2{
+    position: relative;
+    top: -25px;
+    right: -10px;
+    background: #00669F;
+    color: black;
+    text-align:center;
+    font-size: 19px;
+    font-weight: 300;
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    padding-top: 13px;
+    box-sizing: border-box;
+}
+
+.separación{
+    height: 150px;
+}
+
+h3{
+    position: relative;
+    top: -70px;
+    text-align: center;
+}
+
+.footer{
+    position: relative;
+    bottom: 100%;
+    background: #00669F;
+    width: 1010px;
+    height: 51px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 2px;
+    margin: 10px;
+}
