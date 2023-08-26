@@ -22,11 +22,10 @@ line-height: 17.58px;
 .titulo {
 position: relative;
 top:-27px;
-   border: 1px sold;
+border: 1px sold;
 background-color: #00669F; 
-    width: 1024px;
+   width: 1024px;
    height: 101px;
-   flex-shrink: 0;
    box-sizing: border-box;
    margin: 0%;
    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
@@ -46,20 +45,43 @@ background-color: #00669F;
 .container{
     position: relative;
     top: 100px;
-    display: flex;
-    flex-direction: row;
     width: 1024px;
     height: 800px;
     margin: 80px 20 px;
 }
 
-.caja-hija{ 
+.caja-hija-1{ 
     position: relative;
+    top: -5%;
+    left: 32px;
     width: 300px;
     height: 530px;
     align-content: center;
     margin: 15px;
-    flex-shrink: 0;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.caja-hija-2{ 
+    position: relative;
+    top:-73%;
+    left: 35%;
+    width: 300px;
+    height: 530px;
+    align-content: center;
+    margin: 15px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.caja-hija-3{ 
+    position: relative;
+    top:-141%;
+    left: 67%;
+    width: 300px;
+    height: 530px;
+    align-content: center;
+    margin: 15px;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -146,10 +168,10 @@ h3{
 }
 
 .footer{
-    position: relative;
-    bottom: 100%;
+    position: absolute;
+    bottom: -9%;
     background: #00669F;
-    width: 1010px;
+    width: 1024px;
     height: 51px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 2px;
