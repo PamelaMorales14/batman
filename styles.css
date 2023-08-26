@@ -1,25 +1,46 @@
+
 .descuento {
 background-color: aquamarine;
-color:black;
-font-size: 15px;
 width: 1024px;
 height: 38px;
 flex-shrink: 0;
 box-sizing: border-box;
 margin: 0%;
-
-
 }
 
+.colo-des{
+position: relative;
+top: 10px;
+left: 27px;
+color:black;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+line-height: 17.58px;
+
+}
 .titulo {
+position: relative;
+top:-27px;
    border: 1px sold;
-    background-color: #00669F;
-    color:black;
+background-color: #00669F; 
     width: 1024px;
    height: 101px;
    flex-shrink: 0;
    box-sizing: border-box;
    margin: 0%;
+   box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.colo-he{
+    position: relative;
+    top: 30px;
+    left: 28px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.88px;
 }
 
 .container{
@@ -30,8 +51,6 @@ margin: 0%;
     width: 1024px;
     height: 800px;
     margin: 80px 20 px;
-    background: #F3F3F3;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .caja-hija{ 
@@ -43,7 +62,6 @@ margin: 0%;
     flex-shrink: 0;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    
 }
 
 .fondo{
@@ -62,41 +80,32 @@ margin: 0%;
 
 .corazon{
     position: relative;
-    top: -55%;
-    right: 39%;
+    top: -52%;
+    right: 38%;
     width: 30px;
     height: 30px;
-    border-radius:50%;
-}
-
-.corazon2{
-    position: relative;
-    top: -49%;
-    right: 40%;
-    width: 30px;
-    height: 30px;
-    border-radius:50%;
 }
 
 .descripcion{
     position: relative;
-    top: -70px;
+    top: -120px;
     color:black;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16 px;
     font-weight: 400px;
-    padding: 5 px;
+    text-align: center;
+    padding: 10px;
 
 }
-
 .boton{
     position: relative;
-    top: -50px;
+    top: -100px;
     right: -10px;
     background: #00669F;
-    color: black;
+    color: white;
     text-align:center;
-    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     font-weight: 300;
     width: 120px;
     height: 50px;
@@ -107,12 +116,13 @@ margin: 0%;
 
 .boton2{
     position: relative;
-    top: -25px;
+    top: -120px;
     right: -10px;
     background: #00669F;
-    color: black;
+    color: white;
     text-align:center;
-    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
     font-weight: 300;
     width: 120px;
     height: 50px;
@@ -127,7 +137,11 @@ margin: 0%;
 
 h3{
     position: relative;
-    top: -70px;
+    top: -95px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;   
+    line-height: 35.16px;
     text-align: center;
 }
 
@@ -138,10 +152,17 @@ h3{
     width: 1010px;
     height: 51px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color: black;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400px;
     padding: 2px;
     margin: 10px;
+}
+
+.colo-fot{
+    position: relative;
+    top:-10px;
+    left:20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    text-align:left;
 }
